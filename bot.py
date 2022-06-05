@@ -5,7 +5,7 @@ bot = telebot.TeleBot(TOKEN)
 def send_image():
  a = random.randint(0,1)
  captions = ("🔴 Join Red On Parity \n✋ Always Use /Triple_Investment Method To Be In Profit\n🔸️If You Are New, Register via Official Link :\n https://winapp1.com//#/register?r_code=68C2F335 \n\nAnd Start Earning Now!", "🟢 Join Green On Parity \n✋ Always Use /Triple_Investment Method To Be In Profit\n🔸️If You Are New, Register via Official Link :\n https://winapp1.com//#/register?r_code=68C2F335 \n\nAnd Start Earning Now!) 
- with open(f"{a}.png", "rb") as file: bot.send_photo("group_id", file,caption[a])
+ with open(f"{a}.png", "rb") as file: bot.send_photo("-1001692814230", file,caption[a])
 
 while True:
  send_image()
