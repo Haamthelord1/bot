@@ -10,4 +10,4 @@ def send_image():
 
 while True:
  send_image()
- time.sleep(10)
+ time.sleep(3*60)
