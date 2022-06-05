@@ -12,9 +12,9 @@ def start(message):
 
 @bot.message_handler(commands=["hello", "hi"])
 def hello(message):
-    jokes = ["Red","Green"]
-    randomjoke = random.randrange([jokes])
-    bot.send_message(message.chat.id,randomjoke)
+    #jokes = ["Red","Green"]
+    #randomjoke = random.randrange([jokes])
+    bot.send_message(message.chat.id,"Still In Development 🥲")
 
 
 while True:
