@@ -13,7 +13,7 @@ def start(message):
 @bot.message_handler(commands=["hello", "hi"])
 def hello(message):
     jokes = ["Red","Green"]
-    randomJoke = jokes[random.randrange(len(jokes))] 
+    randomjoke = jokes[random.randrange(len(jokes))] 
     bot.send_message(message.chat.id,randomjoke)
 
 
