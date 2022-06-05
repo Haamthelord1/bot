@@ -6,7 +6,7 @@ bot = telebot.TeleBot(TOKEN)
 def send_image():
  a = random.randint(0,1)
  captions = ("🔴 Red", "🟢 Green ") 
- with open(f"{a}.png", "rb") as file: bot.send_photo(-1001692814230, file,caption[a])
+ with open(f"{a}.png", "rb") as file: bot.send_photo(message.chat.id, file,caption[a])
 
 while True:
  send_image()
