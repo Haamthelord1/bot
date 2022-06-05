@@ -12,7 +12,7 @@ def start(message):
 
 @bot.message_handler(commands=["hello", "hi"])
 def hello(message):
-    bot.send_message(message.chat.id, "Hello World")
+    bot.send_message(message.chat.id, ["Hello World","Hi World"])
 
 
 while True:
